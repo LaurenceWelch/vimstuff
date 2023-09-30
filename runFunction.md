@@ -1,3 +1,4 @@
+```vim
 let allowRun = -1
 
 map <leader>r :call RunSomething()<CR>
@@ -15,3 +16,4 @@ function RunSomething()
     w
     execute '!'.g:runCommand
 endfunction
+```

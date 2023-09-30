@@ -1,3 +1,4 @@
+```vim
 :filetype on
 
 autocmd VimEnter * call SetCommentChar()
@@ -42,3 +43,4 @@ function Comment(opt)
         endfor
     endif
 endfunction
+```
